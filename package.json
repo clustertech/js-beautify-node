@@ -1,0 +1,32 @@
+{
+   "name": "js-beautify-node",
+   "description": "Javascript beautifier.  Working on node'ifying it.",
+   "tags": [
+       "js",
+       "javascript",
+       "beautifier",
+       "indentation",
+       "dumper",
+       "serialize",
+       "node"
+   ],
+   "version": "1.0.0",
+   "author": {
+      "name" : "Carlo Zottmann", 
+      "email" : "carlo@zottmann.org",
+      "url" : "http://blog.zottmann.org/"  
+   },
+   "repository": {
+       "type": "git",
+       "url": "https://github.com/carlo/js-beautify-node"
+   },
+   "bugs": "https://github.com/carlo/js-beautify-node/issues",
+   "engines": [
+       "node >= 0.3.0"
+   ],
+   "main": "beautify-node.js",
+   "license" : "MIT License (see License)",
+   "dependencies": {  
+    },
+    "bin" : { "jsbeautify" : "./beautify-node.js" }    
+}
