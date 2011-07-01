@@ -44,7 +44,7 @@ require.paths.unshift( "./" );
 
   function printUsage() {
     sys.puts( [
-      "Usage: node beautify-node.js [options] [file || URL || STDIN]",
+      "Usage: jsbeautify [options] [file || URL || STDIN]",
       "",
       "Reads from standard input if no file or URL is specified.",
       "",
