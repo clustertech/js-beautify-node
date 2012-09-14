@@ -12,9 +12,9 @@
    ],
    "version": "1.0.0",
    "author": {
-      "name" : "Gregor Schwab", 
+      "name" : "Gregor Schwab",
       "email" : "mail@synaptic-labs.net",
-      "url" : "www.grenzgenial.com"  
+      "url" : "www.grenzgenial.com"
    },
    "repository": {
        "type": "git",
@@ -26,7 +26,10 @@
    ],
    "main": "beautify-node.js",
    "license" : "MIT License (see License)",
-   "dependencies": {  
+   "dependencies": {
     },
-    "bin" : { "jsbeautify" : "./beautify-node.js" }    
+    "bin" : { "jsbeautify" : "./beautify-node.js" },
+    "scripts" : {
+      "preinstall" : "git clone https://github.com/einars/js-beautify.git"
+    }
 }
