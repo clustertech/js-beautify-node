@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+// -*- javascript -*-
+
 /*jslint adsafe: false, bitwise: true, browser: true, cap: false, css: false,
   debug: false, devel: true, eqeqeq: true, es5: false, evil: true,
   forin: false, fragment: false, immed: true, laxbreak: false, newcap: true,
